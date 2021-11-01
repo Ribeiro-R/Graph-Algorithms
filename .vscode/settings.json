@@ -1,0 +1,53 @@
+{
+    // Editor settings
+    "editor.tabSize": 4,
+    "editor.rulers": [80, 120],
+    "editor.renderWhitespace": "trailing",
+    "editor.suggestSelection": "first",
+    // Explorer settings
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 0,
+    // Files settings
+    "files.autoSave": "onFocusChange",
+    "files.associations": {
+        "*.pyx": "python"
+    },
+    // Workbench settings
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    // Python settings
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": ["--line-length", "79"],
+    "python.languageServer": "Pylance",
+    "python.showStartPage": false,
+    "autoDocstring.generateDocstringOnEnter": true,
+    "jupyter.alwaysTrustNotebooks": true,
+    "pythonTestExplorer.testFramework": "pytest",
+    "jupyter.interactiveWindowMode": "perFile",
+    // Git settings
+    // "git.enableSmartCommit": true,
+    // "git.autofetch": true,
+    // "git.confirmSync": false,
+    // IntelliSense AI Extension
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    // Formatting tools
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    // Other extensions
+    "formatContextMenu.closeAfterSave": true,
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
